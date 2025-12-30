@@ -53,7 +53,7 @@ def generate_password(length, strength, memorable, keyword):
 
     return password[:length]
 
-# ---------------- MAIN PROGRAM ----------------
+# ~MAIN PROGRAM 
 
 print("\n🔐 PASSWORD GENERATOR 🔐")
 
@@ -93,3 +93,4 @@ elif score >= 60:
     print("Rating: STRONG ✅")
 else:
     print("Rating: WEAK ⚠ Improve length or symbols")
+
