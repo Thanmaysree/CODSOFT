@@ -24,7 +24,7 @@ def calculate():
 
     except ValueError:
         result_label.config(text="Please enter valid numbers!!")
-
+#using GUI 
 
 # Main window
 root = tk.Tk()
@@ -54,4 +54,5 @@ result_label.pack()
 
 # Run app
 root.mainloop()
+
 
